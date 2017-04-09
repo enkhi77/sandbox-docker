@@ -1,0 +1,8 @@
+test-database/          # contains the code seen in Step 1
+users-service/          # root of our node.js microservice
+- package.json          # dependencies, metadata
+- index.js              # main entrypoint of the app
+- api/                  # our apis and api tests
+- config/               # config for the app
+- repository/           # abstraction over our db
+- server/               # server setup code
